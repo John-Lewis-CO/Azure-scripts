@@ -1,0 +1,4 @@
+az vmss scale \
+    --name webServerScaleSet \
+    --resource-group scalesetrg \
+    --new-capacity 2
